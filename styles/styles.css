@@ -1,0 +1,115 @@
+@font-face { font-family: "StarjediSpecialEdition-9Bqy.ttf";
+src: url("../fonts/StarjediSpecialEdition-9Bqy.ttf");}
+@font-face { font-family: "FROSTBITE-Wide.ttf";
+src: url("../fonts/FROSTBITE-Wide.ttf");}
+
+.centro {
+    border: 6px solid #2D2E29;
+    border-radius: 14px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: start;
+	align-items: center;
+	align-content: center;
+    background-color: #333029;
+    text-align: center;
+        }
+.imagen1 {
+            box-shadow: 11px 14px 5px -6px rgba(0,0,0,0.51);
+            border: 0px solid #000000;
+            border-radius: 8px 8px 8px 8px;
+            height: 60%;
+            width: 60%;
+        }
+#login { 
+    font-size: 32px;
+    text-align: center;
+    font-family: "StarjediSpecialEdition-9Bqy.ttf" ;
+    color: #ccc2a6; }
+/*.input1{*/
+.input2 {
+    size: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*display: inline-block;*/
+    border: 1px solid #ccc2a6;
+    border-radius: 7px 7px 7px 7px;
+    }
+.avatar {
+    /*display: inline-block;*/
+    text-align: center;
+    font-size: 32px;
+    font-family: "FROSTBITE-Wide.ttf";
+    color: #000000;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;}
+.descripcion {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: "FROSTBITE-Wide.ttf";
+}        
+#avatar-ingreso{
+    /*display: inline-block;*/
+    border: 9px solid #505739;
+    border-radius: 200px;
+    width: 50%;
+    margin: 20px;
+        }
+#entrar {
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*font-family: "FROSTBITE-Wide.ttf";*/
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	/*display:inline-block;*/
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+        }
+#entrar:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+        }
+#entrar:active {
+	position:relative;
+	top:1px;
+        }
+.boton2 {
+    /*font-family: "FROSTBITE-Wide.ttf"; no pude hacer andar las fonts ni en el button ni en el A*/
+    font-size: medium;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+            box-shadow:inset 0px 1px 3px 0px #91b8b3;
+            background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+            background-color:#768d87;
+            border-radius:5px;
+            border:1px solid #566963;
+            /*display:inline-block;*/
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:3px 23px;
+            text-decoration:none;
+            text-shadow:0px -1px 0px #2b665e;}
+            .boton2:hover {
+            background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+            background-color:#6c7c7c;}
+        .boton2:active {
+            position:relative;
+            top:1px;
+        }
+        
+                
+        
